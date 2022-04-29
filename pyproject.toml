@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "WSCS"
+version = "0.1.0"
+description = "Whole Sky Camera System with Canon EOS 550D"
+authors = ["Changgon Kim, Jihoon No, Hyunju Kim, Nahyun Kwon"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.22.3"
+astropy = "^5.0.4"
+rawkit = "^0.6.0"
+PyQt5 = "^5.15.6"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
