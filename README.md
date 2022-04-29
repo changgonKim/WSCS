@@ -35,3 +35,27 @@ Run the GUI code
 ```
 $ python WSCS_GUI.py
 ```
+
+## ERROR HANDLING
+
+The error handling will written here.
+
+### 1. The EDSDK error
+
+For EDSDK error, you have to download the edsds.dll from [here](https://www.dll4free.com/edsdk.dll.html)
+
+Click download button at there.
+
+And add it in your Following window directory:
+
+C:\Windows\System32 for 32 bit
+and
+C:\Windows\SysWOW64 for 64 bit
+
+Then try to connect the Camera in the GUI again.
+
+### 2. ImportError: Cannot find LibRaw on your system!
+
+In this case, follow this instruction [here](http://w3devlabs.net/wp/?p=32534). This is in Korean, so if you want English description, it is [here](https://github.com/mateusz-michalik/cr2-to-jpg/issues/1)
+
+Please make a issue if there are more other issues on using this.
